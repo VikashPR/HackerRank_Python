@@ -21,4 +21,4 @@ Sample Output 0
 
 ## Submission Code
 
-<img src="./helloWorld_output.png">
+<img src="../output/helloWorld_output.png">
