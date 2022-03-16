@@ -19,6 +19,12 @@ Sample Output 0
 
     `Hello, World!`
 
-## Submission Code
+# Solution
+```
+if __name__ == '__main__':
+    print ("Hello, World!")
+```
+
+# Submission Code
 
 <img src="../output/helloWorld_output.png">

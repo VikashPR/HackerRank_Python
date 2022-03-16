@@ -48,7 +48,36 @@ Print Weird if the number is weird. Otherwise, print Not Weird.
 
 ***n > 20*** and ***n*** is even, so it is not weird.
 
-## Submission Code
+# Solution
+
+```
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input().strip())
+    
+# Solution Starts
+
+if n % 2 == 1:
+    print("Weird");
+elif n % 2 == 0 and 2 <= n <=5:
+    print("Not Weird");
+elif n % 2 == 0 and 6 <= n <= 20:
+    print("Weird");
+else:
+    print("Not Weird")
+
+# Solution Ends
+```
+# Submission Code
 
 <img src="../output/If-Else_Output.png">
 

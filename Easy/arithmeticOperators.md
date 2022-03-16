@@ -58,6 +58,24 @@ Print the three lines as explained above.
 
 ***3 * 2 ⇒ 5***
 
-## Submission Code
+# Solution
+```
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+# Solution Starts
+    
+    addTwo = a + b;
+    diffTwo = a - b;
+    proTwo = a * b;
+    
+    print(addTwo);
+    print(diffTwo);
+    print(proTwo);
+    
+# Solution Ends
+    
+```
+# Submission Code
 
 <img src="../output/arithmeticOperators_output.png">
