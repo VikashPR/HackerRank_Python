@@ -12,3 +12,4 @@ if __name__ == '__main__':
     for i,j in sorted(students):
         if(j == secondLargest):
             print(i)
+            
