@@ -25,4 +25,5 @@ The solutions of Python challenges for  easy, medium  challenges on HackerRank e
 | 7 | [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem) | [Python]()
 | 8 | [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem) | [Python]()
 | 9 | [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem) | [Python]()
+| 9 | [Percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem) | [Python]()
 <!-- | 10 | []() | [Python]() -->/
