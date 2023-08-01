@@ -78,3 +78,20 @@ if __name__ == '__main__':
     for i in range(1, n+1):
         print(i, end="")
 ```
+
+## Write a function
+```python
+def is_leap(year):
+    leap = False
+    
+    if year%4 == 0:
+        leap = True
+    elif (year%100 == 0) and (year%400 == 0):
+        leap = True
+    elif year% 100 == 0:
+        leap = False
+    else:
+        leap = False
+    
+    return leap
+```
