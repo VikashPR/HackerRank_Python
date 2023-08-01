@@ -101,4 +101,14 @@ if __name__ == '__main__':
     n = int(input())
     newList = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n]
     print(newList)
-    ```
+```
+
+## Find the Runner-Up Score!
+```python
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    setList = set(list(arr))
+    setList = sorted(setList, reverse=True)
+    print(setList[1])
+```
