@@ -69,3 +69,12 @@ if __name__ == '__main__':
         for i in range(n):
             print(pow(i,2))
 ```
+
+## Print Function
+```python
+if __name__ == '__main__':
+    n = int(input())
+    
+    for i in range(1, n+1):
+        print(i, end="")
+```
