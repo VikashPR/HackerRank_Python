@@ -65,6 +65,7 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     n = int(input())
     
-    for i in range(5):
-        print(pow(i,2))
+    if n >= -1:
+        for i in range(n):
+            print(pow(i,2))
 ```
