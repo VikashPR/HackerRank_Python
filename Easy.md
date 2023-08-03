@@ -1,10 +1,12 @@
 ## Hello World!
-``` python
+
+```python
 if __name__ == '__main__':
     print ("Hello, World!")
 ```
 
 ## Python If-Else
+
 ```python
 #!/bin/python
 
@@ -30,6 +32,7 @@ else:
 ```
 
 ## Arithmetic Operators
+
 ```python
 if __name__ == '__main__':
     a = int(raw_input())
@@ -47,6 +50,7 @@ if __name__ == '__main__':
 ```
 
 ## Python: Division
+
 ```python
 from __future__ import division
 
@@ -61,38 +65,42 @@ if __name__ == '__main__':
 ```
 
 ## Loops
+
 ```python
 if __name__ == '__main__':
     n = int(input())
-    
+
     if n >= -1:
         for i in range(n):
             print(pow(i,2))
 ```
 
 ## Print Function
+
 ```python
 if __name__ == '__main__':
     n = int(input())
-    
+
     for i in range(1, n+1):
         print(i, end="")
 ```
 
 ## Write a function
+
 ```python
 def is_leap(year):
     leap = False
     if year % 4 == 0:
-        leap = True; 
+        leap = True;
     if year % 100 == 0:
             leap = False;
             if year % 100 == 0 and year % 400 == 0:
-                leap = True;    
+                leap = True;
     return leap
 ```
 
 ## List Comprehensions
+
 ```python
 if __name__ == '__main__':
     x = int(input())
@@ -104,6 +112,7 @@ if __name__ == '__main__':
 ```
 
 ## Find the Runner-Up Score!
+
 ```python
 if __name__ == '__main__':
     n = int(input())
