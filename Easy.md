@@ -28,3 +28,14 @@ if __name__ == '__main__':
         else:
             print("Not Weird")
 ```
+
+### Arithmetic Operators
+```python
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    print(a+b)
+    print(a-b)
+    print(a*b)
+```
