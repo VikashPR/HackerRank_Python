@@ -49,3 +49,13 @@ if __name__ == '__main__':
     print(a//b)
     print(a/b)
 ```
+
+### Loops
+```python
+if __name__ == '__main__':
+    n = int(input())
+    
+    for i in range(n):
+        print(i*i, end="\n")
+```
+
