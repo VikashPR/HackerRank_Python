@@ -39,3 +39,13 @@ if __name__ == '__main__':
     print(a-b)
     print(a*b)
 ```
+
+### Python: Division
+```python
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    print(a//b)
+    print(a/b)
+```
