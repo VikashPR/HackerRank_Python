@@ -88,3 +88,14 @@ if __name__ == '__main__':
     for i in range(1, n+1):
         print(i, end="")
 ```
+
+### Power - Mod Power
+```python
+a = int(input())
+b = int(input())
+m = int(input())
+
+print(pow(a,b))
+
+print(pow(a,b,m))
+```
