@@ -123,3 +123,12 @@ if __name__ == '__main__':
     print([[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i + j + k != n])
 
 ```
+
+### Find the Runner-Up Score!
+```python
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr = list(set(arr))
+    print(sorted(arr, reverse=True)[1])
+```
