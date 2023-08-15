@@ -132,3 +132,27 @@ if __name__ == '__main__':
     arr = list(set(arr))
     print(sorted(arr, reverse=True)[1])
 ```
+
+### Nested Lists
+```python
+if __name__ == '__main__':
+    records = []
+    grades = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        records.append([name, score])
+        
+        if score not in grades:
+            grades.append(score)
+    
+    grades = sorted(grades)
+    records = sorted(records, key = lambda x: x[0])
+    
+    
+    second_lowers_grade = grades[1]
+    
+    for i in records:
+        if i[1] == second_lowers_grade:
+            print(i[0])
+```
